@@ -1,0 +1,64 @@
+body {
+  font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: .5em;*/
+    top: 15%;
+  background: linear-gradient(to right,red ,orange,yellow); /* Standard syntax */
+  /*background-color: rgba(255, 0, 0, 0.8);*/
+}
+ 
+h1{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+   text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0rem 20rem 0rem 20rem;
+  background-image: linear-gradient(to right,indigo,violet);
+  /*background-color: #8811C4;*/
+  border: 1px solid green;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0.1rem 0.1rem 0.4rem black;
+  position: relative;
+  color: black;
+ /* width: 100vh;
+  height: 60vh; */
+ font-family: 'Oswald', sans-serif;
+}
+
+.userInput {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+input {
+  margin-right: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  /*background-color: #9E81A4;*/
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+ul {
+  display: block;
+}
+
+.delClass {
+  display: flex;
+  color: black;
+}
